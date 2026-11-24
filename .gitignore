@@ -1,0 +1,106 @@
+# ============================================
+# AWS credentials and keys: NEVER commit
+# ============================================
+.aws/
+credentials
+config.local
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*.kubeconfig
+
+# ============================================
+# Environment variables and secrets
+# ============================================
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.*
+!secrets.example.*
+
+# ============================================
+# Terraform
+# ============================================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+# Keep .terraform.lock.hcl committed (it pins provider versions)
+
+# ============================================
+# CloudFormation / SAM / CDK build output
+# ============================================
+.aws-sam/
+cdk.out/
+packaged*.yaml
+packaged*.json
+
+# ============================================
+# Build artifacts (Lambda packages, app builds)
+# ============================================
+*.zip
+dist/
+build/
+.output/
+.nuxt/
+
+# ============================================
+# Node.js
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+
+# ============================================
+# Diagram tool backups
+# ============================================
+*.drawio.bkp
+*.drawio.dtmp
+
+# ============================================
+# OS and editor files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ============================================
+# Local-only workspace
+# Raw unredacted screenshots, scratch notes, anything with real account info
+# ============================================
+_local/
