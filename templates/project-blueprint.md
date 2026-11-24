@@ -66,6 +66,7 @@
 **System objectives**
 1. [Objective]
 2. [Objective]
+
 **Learning objectives**
 1. [Concept or skill you want to understand]
 2. [Concept or skill]
@@ -113,10 +114,13 @@
  
 **In scope**
 - [Item]
+
 **Out of scope (and why)**
 - [Item]: [Reason]
+
 **Assumptions**
 - [Assumption]
+
 **Known limitations**
 - [Limitation]
 ---
@@ -150,8 +154,9 @@
 1. [Actor/source] sends [what] to [component]
 2. [Component] [does what] and forwards to [component]
 3. [...]
+
 **Traffic rules**
- 
+
 | Source | Destination | Protocol / Port | Path (e.g., IGW, NAT, endpoint, internal) | Allowed or Blocked | Enforced by |
 |---|---|---|---|---|---|
 | [Source] | [Destination] | [TCP 443] | [Path] | [Allowed] | [Security group / NACL / IAM policy / route table] |
@@ -251,6 +256,7 @@
 - [ ] Arrows show traffic direction and match Section 8
 - [ ] Official AWS architecture icons used
 - [ ] No real account IDs, IPs, or ARNs
+
 **Diagram explanation:** [Walk through the diagram in a short paragraph. Someone who only reads this should understand how the parts connect.]
  
 ---
